@@ -1,0 +1,748 @@
+{
+  "adult": false,
+  "backdrop_path": "/h3HsfV8Kn9Sz2QWUYYdP5ya23hx.jpg",
+  "belongs_to_collection": {
+    "id": 726871,
+    "name": "Dune Collection",
+    "poster_path": "/c1AiZTXyyzmPOlTLSubp7CEeYj.jpg",
+    "backdrop_path": "/iCFFmXkK5FdIzqZyyQQEdpkTo8C.jpg"
+  },
+  "budget": 165000000,
+  "genres": [
+    { "id": 878, "name": "Science Fiction" },
+    { "id": 12, "name": "Adventure" }
+  ],
+  "homepage": "https://www.dunemovie.com/",
+  "id": 438631,
+  "imdb_id": "tt1160419",
+  "original_language": "en",
+  "original_title": "Dune",
+  "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+  "popularity": 993.327,
+  "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+  "production_companies": [
+    {
+      "id": 923,
+      "logo_path": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+      "name": "Legendary Pictures",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    { "iso_3166_1": "US", "name": "United States of America" }
+  ],
+  "release_date": "2021-09-15",
+  "revenue": 389000000,
+  "runtime": 155,
+  "spoken_languages": [
+    { "english_name": "Mandarin", "iso_639_1": "zh", "name": "普通话" },
+    { "english_name": "English", "iso_639_1": "en", "name": "English" }
+  ],
+  "status": "Released",
+  "tagline": "Beyond fear, destiny awaits.",
+  "title": "Dune",
+  "video": false,
+  "vote_average": 8.0,
+  "vote_count": 4720,
+  "release_dates": {
+    "results": [
+      {
+        "iso_3166_1": "BE",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-15T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "SK",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-01T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "NO",
+        "release_dates": [
+          {
+            "certification": "12",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-15T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "AU",
+        "release_dates": [
+          {
+            "certification": "M",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-12-02T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "IS",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-17T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "MX",
+        "release_dates": [
+          {
+            "certification": "12+",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "IT",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "Venice International Film Festival",
+            "release_date": "2021-09-03T00:00:00.000Z",
+            "type": 1
+          },
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "SA",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-23T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "AR",
+        "release_dates": [
+          {
+            "certification": "13",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "FI",
+        "release_dates": [
+          {
+            "certification": "K-12",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-17T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "CA",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": null,
+            "note": "Toronto International Film Festival",
+            "release_date": "2021-09-11T00:00:00.000Z",
+            "type": 1
+          },
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "NZ",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-12-02T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "IN",
+        "release_dates": [
+          {
+            "certification": "UA",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "JP",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-15T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "PT",
+        "release_dates": [
+          {
+            "certification": "M/12",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "TR",
+        "release_dates": [
+          {
+            "certification": "13+ ",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "GB",
+        "release_dates": [
+          {
+            "certification": "12A",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "HU",
+        "release_dates": [
+          {
+            "certification": "16",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "IE",
+        "release_dates": [
+          {
+            "certification": "12A",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "KR",
+        "release_dates": [
+          {
+            "certification": "12",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-20T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "ES",
+        "release_dates": [
+          {
+            "certification": "12",
+            "iso_639_1": "es",
+            "note": "",
+            "release_date": "2021-09-17T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "12",
+            "iso_639_1": "es",
+            "note": "HBO Max",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 4
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "RO",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "RU",
+        "release_dates": [
+          {
+            "certification": "12+",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "DK",
+        "release_dates": [
+          {
+            "certification": "11",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "HK",
+        "release_dates": [
+          {
+            "certification": "IIA",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "PL",
+        "release_dates": [
+          {
+            "certification": "12",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-01T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "LV",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-17T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "SG",
+        "release_dates": [
+          {
+            "certification": "PG13",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "AE",
+        "release_dates": [
+          {
+            "certification": "18TC",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-23T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "CZ",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "cs",
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "SE",
+        "release_dates": [
+          {
+            "certification": "11",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-15T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "CN",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "NL",
+        "release_dates": [
+          {
+            "certification": "12",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-30T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "12",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "TH",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "CH",
+        "release_dates": [
+          {
+            "certification": "12",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-15T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "FR",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "Deauville American Film Festival",
+            "release_date": "2021-09-10T00:00:00.000Z",
+            "type": 1
+          },
+          {
+            "certification": "",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-15T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "VOD",
+            "release_date": "2022-01-13T00:00:00.000Z",
+            "type": 4
+          },
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "DVD, Blu-Ray & 4K UHD",
+            "release_date": "2022-01-26T00:00:00.000Z",
+            "type": 5
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "ID",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-01T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "DE",
+        "release_dates": [
+          {
+            "certification": "12",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "12",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-11-01T00:00:00.000Z",
+            "type": 4
+          },
+          {
+            "certification": "12",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-12-23T00:00:00.000Z",
+            "type": 5
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "UA",
+        "release_dates": [
+          {
+            "certification": "12+",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "BR",
+        "release_dates": [
+          {
+            "certification": "14",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "12",
+            "iso_639_1": "",
+            "note": "VOD e HBO Max",
+            "release_date": "2021-11-26T00:00:00.000Z",
+            "type": 4
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "US",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "New York Film Festival",
+            "release_date": "2021-10-07T00:00:00.000Z",
+            "type": 1
+          },
+          {
+            "certification": "PG-13",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          },
+          {
+            "certification": "PG-13",
+            "iso_639_1": "",
+            "note": "HBO Max",
+            "release_date": "2021-10-21T00:00:00.000Z",
+            "type": 4
+          },
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2022-01-11T00:00:00.000Z",
+            "type": 5
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "GR",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-10-14T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "BG",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-10-22T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "LT",
+        "release_dates": [
+          {
+            "certification": "N-13",
+            "iso_639_1": null,
+            "note": "",
+            "release_date": "2021-09-17T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "TW",
+        "release_dates": [
+          {
+            "certification": "",
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2021-09-16T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      }
+    ]
+  },
+  "videos": {
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Final Trailer",
+        "key": "w0HgHet0sxg",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2021-10-07 16:00:27 UTC",
+        "id": "615f6a958e2ba600434e8c0b"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Desert Visions Featurette",
+        "key": "aSHs224Dge0",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Featurette",
+        "official": true,
+        "published_at": "2021-09-13 22:24:05 UTC",
+        "id": "6141974dfd7aa400294685ba"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Main Trailer",
+        "key": "8g18jFHCLXk",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2021-07-22 13:00:04 UTC",
+        "id": "60f96f11f1759c004667ff5c"
+      },
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Official Trailer",
+        "key": "n9xhJrPXop4",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2020-09-09 16:18:02 UTC",
+        "id": "5f59011dbefb090036571115"
+      }
+    ]
+  }
+}

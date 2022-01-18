@@ -1,0 +1,6 @@
+{
+  "integrationFolder": "test/e2e",
+  "testFiles": "**/*.cy.*",
+  "componentFolder": "src/components",
+  "pluginsFile": false
+}

@@ -1,0 +1,10 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": ["eslint-config-svelte3-roboleary"],
+  "rules": {
+    "import/no-unresolved": "off"
+  }
+}

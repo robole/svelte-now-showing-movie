@@ -1,0 +1,219 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --max-width: 1600px;
+  --header-height: 2.75rem;
+  --primary-color: hsl(300deg 100% 25%);
+  --secondary-color: hsl(270deg 100% 25%);
+  --tertiary-color: hsl(330deg 100% 25%);
+  --default-padding: 5px;
+  --zIndex5: 250;
+  --zIndex4: 200;
+  --zIndex3: 150;
+  --zIndex2: 100;
+  --zIndex1: 50;
+}
+
+:focus {
+  border-radius: 5px;
+  outline: outset 3px var(--tertiary-color);
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Inter, Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.monospace {
+  font-family: "Fira Mono", "JetBrains Mono", monospace;
+}
+
+input,
+select {
+  padding: 0;
+  border: none;
+  margin: 0;
+  box-shadow: rgb(0 0 0 / 20%) 0 0 2px, inset rgb(0 0 0 / 10%) 0 0 0 1px;
+}
+
+form,
+input,
+select,
+button {
+  border-radius: 4px;
+  font-size: inherit;
+}
+
+select {
+  padding: 0.25rem;
+  background-color: transparent;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+/* Firefox */
+input[type="number"] {
+  appearance: textfield;
+}
+
+button {
+  padding: 0.4rem;
+  border: 1px solid var(--secondary-color);
+  background-color: transparent;
+  box-shadow: rgb(0 0 0 / 20%) 0 1px 2px, rgb(0 0 0 / 10%) 1px 2px 2px;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  border: 0 solid hsl(180deg 100% 0%);
+  background: var(--primary-color);
+  border-radius: 25px;
+  box-shadow: 0 0 0 hsl(0deg 0% 0%), 0 0 0 hsl(0deg 0% 5%);
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  border: 1px solid grey;
+  margin-top: -3px;
+  appearance: none;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 hsl(0deg 0% 0%), 0 0 0 hsl(0deg 0% 5%);
+  cursor: pointer;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: var(--primary-color);
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 12.8px;
+  border: 0 solid hsl(180deg 100% 0%);
+  background: var(--primary-color);
+  border-radius: 25px;
+  box-shadow: 0 0 0 hsl(0deg 0% 0%), 0 0 0 hsl(0deg 0% 5%);
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border: 1px solid grey;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 hsl(0deg 0% 0%), 0 0 0 hsl(0deg 0% 5%);
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 12.8px;
+  border-width: 39px 0;
+  border-color: transparent;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-fill-lower {
+  border: 0 solid hsl(180deg 100% 0%);
+  background: var(--primary-color);
+  border-radius: 50px;
+  box-shadow: 0 0 0 hsl(0deg 0% 0%), 0 0 0 hsl(0deg 0% 5%);
+}
+
+input[type="range"]::-ms-fill-upper {
+  border: 0 solid hsl(180deg 100% 0%);
+  background: var(--primary-color);
+  border-radius: 50px;
+  box-shadow: 0 0 0 hsl(0deg 0% 0%), 0 0 0 hsl(0deg 0% 5%);
+}
+
+input[type="range"]::-ms-thumb {
+  width: 16px;
+  height: 16px;
+  border: 1px solid grey;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 hsl(0deg 0% 0%), 0 0 0 hsl(0deg 0% 5%);
+  cursor: pointer;
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+  background: var(--primary-color);
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+  background: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0 var(--padding);
+  margin: 0;
+  font-family: "Bebas Neue", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.gradientText {
+  background-clip: text;
+  background-color: var(--primary-color);
+  background-image: linear-gradient(
+    45deg,
+    var(--primary-color) 30%,
+    var(--secondary-color) 80%
+  );
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a,
+a:visited {
+  color: white;
+}
+
+.modalBackground {
+  position: fixed;
+  z-index: var(--zIndex2);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: saturate(10%) brightness(80%);
+  background-color: rgb(0 0 0 / 80%);
+}

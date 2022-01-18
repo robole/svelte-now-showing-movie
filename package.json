@@ -1,0 +1,47 @@
+{
+  "name": "latest-movies",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "lint": "npm-run-all -p -c lint-js lint-css",
+    "lint:fix": "npm-run-all -p -c lint-js:fix lint-css:fix",
+    "lint-js": "npx eslint .",
+    "lint-js:fix": "npm run lint-js -- --fix",
+    "lint-css": "npx stylelint '**/*.svelte'",
+    "lint-css:fix": "npm run lint-css -- --fix",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest test",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/svelte": "^3.0.3",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.0",
+    "babel-jest": "^27.3.1",
+    "babel-plugin-transform-import-meta": "^2.1.0",
+    "babel-plugin-transform-vite-meta-env": "^1.0.3",
+    "cypress": "^9.0.0",
+    "eslint-config-svelte3-roboleary": "^0.5.0",
+    "jest": "^27.3.1",
+    "jest-transform-stub": "^2.0.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-svelte-roboleary": "^0.3.0",
+    "svelte": "^3.37.0",
+    "svelte-jester": "^2.1.5",
+    "vite": "^2.6.4",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "youtube-player": "^5.5.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "> 1%"
+  ]
+}
